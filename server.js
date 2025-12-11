@@ -12,7 +12,9 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:3000', 
-    'https://shadow-xd-l.github.io'
+    'https://shadow-xd-l.github.io',
+    'https://roshanmaharjan.xyz',
+    'http://roshanmaharjan.xyz'
   ],
   credentials: true
 }));
