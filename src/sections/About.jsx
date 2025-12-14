@@ -115,49 +115,49 @@ const TechItem = styled.li`
 `;
 
 const About = () => {
-    return (
-        <Section id="about">
-            <Content>
-                <TextContainer
-                    initial={{ opacity: 0, x: -30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}
-                    viewport={{ once: true }}
-                >
-                    <Title>About Me</Title>
+  return (
+    <Section id="about">
+      <Content>
+        <TextContainer
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <Title>About Me</Title>
           <p>
-            I am a 19-year-old developer from Kathmandu, Nepal, currently pursuing my <b>B.Tech in Artificial Intelligence</b> at NEIT. 
+            I am a 19-year-old developer from Kathmandu, Nepal, currently pursuing my <b>B.Tech in Artificial Intelligence</b> at NIET.
             My journey began with a curiosity for how machines think, leading me to explore the depths of Deep Learning and Computer Vision.
           </p>
           <p>
             I completed my +2 Science at Capitol Hill College (2025). I love building systems that bridge the gap between human creativity and machine intelligence.
           </p>
-                    <p>
-                        I'm passionate about creating clean, efficient code and exploring the frontiers of Deep Learning. Here are a few technologies I've been working with:
-                    </p>
-                    <ul style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', marginTop: '20px', fontFamily: 'monospace', fontSize: '0.95rem', gap: '10px' }}>
-                        <TechItem>Python (PyTorch)</TechItem>
-                        <TechItem>React.js</TechItem>
-                        <TechItem>TensorFlow</TechItem>
-                        <TechItem>TypeScript</TechItem>
-                        <TechItem>OpenCV</TechItem>
-                        <TechItem>Node.js</TechItem>
-                    </ul>
-                </TextContainer>
-                
-                <ImageContainer
-                     initial={{ opacity: 0, x: 30 }}
-                     whileInView={{ opacity: 1, x: 0 }}
-                     transition={{ duration: 0.5, delay: 0.2 }}
-                     viewport={{ once: true }}
-                >
-                    <ImagePlaceholder>
-                        <img src={ProfileImg} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    </ImagePlaceholder>
-                </ImageContainer>
-            </Content>
-        </Section>
-    );
+          <p>
+            I'm passionate about creating clean, efficient code and exploring the frontiers of Deep Learning. Here are a few technologies I've been working with:
+          </p>
+          <ul style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', marginTop: '20px', fontFamily: 'monospace', fontSize: '0.95rem', gap: '10px' }}>
+            <TechItem>Python (PyTorch)</TechItem>
+            <TechItem>React.js</TechItem>
+            <TechItem>TensorFlow</TechItem>
+            <TechItem>TypeScript</TechItem>
+            <TechItem>OpenCV</TechItem>
+            <TechItem>Node.js</TechItem>
+          </ul>
+        </TextContainer>
+
+        <ImageContainer
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <ImagePlaceholder>
+            <img src={ProfileImg} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          </ImagePlaceholder>
+        </ImageContainer>
+      </Content>
+    </Section>
+  );
 };
 
 export default About;

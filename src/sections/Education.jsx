@@ -81,7 +81,7 @@ const Description = styled.p`
 const educationData = [
   {
     degree: 'B.Tech in Artificial Intelligence',
-    institution: "National Institute of Engineering and Technology (NEIT)",
+    institution: "National Institute of Engineering and Technology (NIET)",
     location: "Kathmandu, Nepal",
     duration: "2025 - Present",
     description: "Specializing in Machine Learning, Deep Learning, and Neural Networks."
@@ -98,10 +98,10 @@ const Education = () => {
   return (
     <Section id="education">
       <Title
-         initial={{ opacity: 0, x: -50 }}
-         whileInView={{ opacity: 1, x: 0 }}
-         transition={{ duration: 0.5 }}
-         viewport={{ once: true }}
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
       >
         Education
       </Title>

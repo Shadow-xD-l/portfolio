@@ -154,7 +154,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          I'm a 19-year-old developer from Kathmandu, Nepal. I specialize in building intelligent systems and modern digital experiences. Currently pursuing my Bachelor's at NEIT.
+          I'm a 19-year-old developer from Kathmandu, Nepal. I specialize in building intelligent systems and modern digital experiences. Currently pursuing my Bachelor's at NIET.
         </Description>
         
         <ButtonGroup
